@@ -1,0 +1,18 @@
+#lightbox{background-color:#aaaaaa;padding:10px;border-bottom:2px solid #666666;border-right:2px solid #666666;position:absolute !important;z-index:5000 !important;}
+
+#lightboxDetails{font-size:0.8em;padding-top:0.4em;}
+
+#lightboxCaption{float:left;}
+
+#keyboardMsg{float:right;}
+
+#closeButton{top:10px;right:10px;}
+
+#lightbox img{border:none;clear:both;}
+
+#overlay img{border:none;}
+
+#overlay{background-image:url(../images/lightbox/overlay.png);position:absolute !important;z-index:5000 !important;}
+
+* html #overlay{background-color:#333333;background-color:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/lightbox/overlay.png", sizingMethod="scale");}
+	

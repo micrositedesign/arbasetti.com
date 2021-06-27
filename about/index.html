@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>About Nino Arbasetti</title>
+<link rel="icon" href="../includes/images/logos/favicon.png" />
+<link type="text/css" rel="stylesheet" href="../includes/css/nacl-style.css" />
+<link type="text/css" rel="stylesheet" href="../includes/css/nacl-menu.css" />
+<link type="text/css" rel="stylesheet" href="../includes/css/nacl-lightbox.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="../includes/css/parallax/reset.css" />
+<script type="text/javascript" src="../includes/javascript/parallax/prefixfree.min.js"></script>
+<script src="https://use.fontawesome.com/3a24046be4.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../includes/javascript/nacl-lightbox.js"></script>
+<style>.sticky{position:fixed;top:0;width:100%;z-index:500;}</style>
+</head>
+
+	
+	
+<body>
+	
+
+	
+<header id="home-parallax">
+  <div class="home-parallax-about-bg"></div>
+ <div class="home-parallax-header-container">
+    <div class="home-parallax-title-slogan-container">
+	<h2 class="page-parallax-heading-about">About</h2>
+	<h1 class="home-parallax-title">Nino Arbasetti</h1>
+	<h3 class="home-parallax-job-title">Web/UX/UI Designer</h3>	
+	<h3 class="home-parallax-slogan">Influence. Impress. Inspire. Ignite.</h3>
+	 </div>
+	</div>
+  </div>
+	
+</header>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(window).scroll(function(){
+  var x = $(this).scrollTop(),
+      transY = (x * 0.5), scale = 1 + (x * 0.0003),
+      transform = 'translateY('+transY+'px) scale('+scale+') translate3d(0,0,0)';
+  $('#home-parallax .home-parallax-about-bg').css({
+    opacity: 1 - (x * 0.0008),
+    WebkitTransform: transform,
+    MozTransform: transform,
+    msTransform: transform,
+    transform: transform
+  });
+});
+</script>
+
+	
+	
+
+<div id="navbar">
+<header class="header">
+    <div class="wrapper">
+
+        <div> 
+		<img src= "../includes/images/logos/nino-arbasetti-logo.svg" class="nacl-logo-img" alt="Nino Arbasetti Logo">      
+		<div class="nacl-title-slogan-container"><span class="nacl-menu-title"><span class="nacl-menu-title-light">Nino</span> Arbasetti</span><br /><span class="nacl-menu-slogan">Influence. Impress. Inspire. Ignite.</span></div>
+		</div> 
+
+
+        <nav class="nav">
+            <div class="nav__container">
+
+                <ul class="menu">
+                    <li class="menu-item"><a href="../">Home</a></li>
+                    <li class="menu-item"><a href="#" class="active">About</a></li>
+                    <li class="menu-item"><a href="../resume">Resume</a></li>
+                    <li class="menu-item"><a href="../case-studies">Case Studies</a></li>
+					<li class="menu-item"><a href="../archive">Archive</a></li>
+                    <li class="menu-item"><a href="../contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <button class="hamburger__container mobile">
+            <div class="hamburger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+        </button>
+    </div>
+</div> 
+</header>
+</div>
+	
+
+	
+
+	
+	
+	
+<section style="min-height:100vh;background-size:cover;background-image:url(../includes/images/backgrounds/grid-backgrounds/about-background.jpg);" id="about" class="section">
+<div class="nacl-row-padding nacl-about-row">
+<div class="nacl-col s12 m12 l12 xl12 xxl05 xxxl05 uhd05 nacl-about-image-column">
+<div class="nacl-about-image-container">
+<img src= "../includes/images/selfies/about-nino-arbasetti.png" class="animated-image reveal-image nacl-about-img" alt="Nino Arbasetti Logo"> 
+</div>
+</div>
+<div class="nacl-col s12 m12 l12 xl12 xxl07 xxxl07 uhd07 nacl-about-information-column">
+<div class="animated-text reveal-text nacl-about-information-container">
+<h5>A Pentium IV, 512MB of RAM, a 60GB HDD, a copy of Macromedia Dreamweaver MX, HTML 4.01, CSS2, a bit of an imagination and a glimmer of hope.</h5><br /><br />
+<p class="about-paragraph">This is how it all started. Since this time, learning front-end web development, user experience design and user interface design have been a way of life. Taking a simple idea and evolving it into a complete web solution is a cross between art and science. Design bridges the two, and this bridge is found in the Arbasetti.com logo.</p>
+</div>
+</div>
+</div>
+</section>
+
+
+	
+	
+
+<footer><div class="footer-container">&copy; 2021 Arbasetti.com. All rights reserved.</div></footer>
+
+
+
+
+<script type="text/javascript" src="../includes/javascript/nacl-index.js"></script>
+<script type="text/javascript" src="../includes/javascript/nacl-scroll-triggered-animation.js"></script>
+<script type="text/javascript" src="../includes/javascript/nacl-smooth-scroll.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	
+</body>
+</html>
