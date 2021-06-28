@@ -24,7 +24,7 @@
 
 	
 <header id="home-parallax">
-  <div class="home-parallax-about-bg"></div>
+  <div class="home-parallax-portfolio-bg"></div>
  <div class="home-parallax-header-container">
     <div class="home-parallax-title-slogan-container">
 	<h2 class="page-parallax-heading-case-studies">Case Studies</h2>
@@ -40,7 +40,7 @@ $(window).scroll(function(){
   var x = $(this).scrollTop(),
       transY = (x * 0.5), scale = 1 + (x * 0.0003),
       transform = 'translateY('+transY+'px) scale('+scale+') translate3d(0,0,0)';
-  $('#home-parallax .home-parallax-bg').css({
+  $('#home-parallax .home-parallax-portfolio-bg').css({
     opacity: 1 - (x * 0.0008),
     WebkitTransform: transform,
     MozTransform: transform,
@@ -127,15 +127,15 @@ $(window).scroll(function(){
 		<div class="nacl-case-study-container">
         <div class="nacl-row-padding nacl-home-row">
             <div class="nacl-col s12 m12 l12 xl12 xxl12 xxxl05 uhd05 nacl-portfolio-work-two-image-column">
-                <a href="#">
-                    <img class="work-image shadow" src="http://placehold.it/700x300" alt="">
+                <a href="case-study-food-coma/">
+                    <img class="work-image shadow" src="../includes/images/work/work-two/food-coma.jpg" alt="Food Coma">
                 </a>
             </div>
             <div class="nacl-col s12 m12 l12 xl12 xxl12 xxxl07 uhd07 nacl-work-two-information-column">
-                <h4 class="project-heading">Project Two</h4>
-                <h5 class="project-subheading">Subheading</h5>
+                <h4 class="project-heading">Food Coma</h4>
+                <h5 class="project-subheading">Helping connect Portland area residents to local food carts.</h5>
                 <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="nacl-portfolio-btn" href="work-two">View Case Study</a>
+                <a class="nacl-portfolio-btn" href="case-study-food-coma/">View Case Study</a>
             </div>
         </div>
 		</div>
@@ -148,14 +148,14 @@ $(window).scroll(function(){
         <div class="nacl-row-padding nacl-home-row">
             <div class="nacl-col s12 m12 l12 xl12 xxl12 xxxl05 uhd05 nacl-portfolio-work-three-image-column">
                 <a href="#">
-                    <img class="work-image shadow" src="http://placehold.it/700x300" alt="">
+                    <img class="work-image shadow" src="../includes/images/work/work-three/tbd.jpg" alt="TBD">
                 </a>
             </div>
             <div class="nacl-col s12 m12 l12 xl12 xxl12 xxxl07 uhd07 nacl-work-three-information-column">
-                <h4 class="project-heading">Project Three</h4>
+                <h4 class="project-heading">Case Study Three</h4>
                 <h5 class="project-subheading">Subheading</h5>
                 <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-                <a class="nacl-portfolio-btn" href="work-three">View Case Study</a>
+                <a class="nacl-portfolio-btn" href="#">View Case Study</a>
             </div>
         </div>
 		</div>

@@ -24,7 +24,7 @@
 
 	
 <header id="home-parallax">
-  <div class="home-parallax-about-bg"></div>
+  <div class="home-parallax-resume-bg"></div>
  <div class="home-parallax-header-container">
     <div class="home-parallax-title-slogan-container">
 	<h2 class="page-parallax-heading-resume">Resume</h2>
@@ -32,8 +32,7 @@
 	<h3 class="home-parallax-job-title">Web/UX/UI Designer</h3>	
 	<h3 class="home-parallax-slogan">Influence. Impress. Inspire. Ignite.</h3>
 	</div>
-	</div>
-  </div>
+</div>
 	
 </header>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -42,7 +41,7 @@ $(window).scroll(function(){
   var x = $(this).scrollTop(),
       transY = (x * 0.5), scale = 1 + (x * 0.0003),
       transform = 'translateY('+transY+'px) scale('+scale+') translate3d(0,0,0)';
-  $('#home-parallax .home-parallax-about-bg').css({
+  $('#home-parallax .home-parallax-resume-bg').css({
     opacity: 1 - (x * 0.0008),
     WebkitTransform: transform,
     MozTransform: transform,

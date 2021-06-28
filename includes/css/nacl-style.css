@@ -132,9 +132,11 @@ li{padding-bottom:30px !important;}
 #home-parallax .home-parallax-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/09.svg) center;background-size:cover;}
 #home-parallax .home-parallax-about-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/13.svg) center;background-size:cover;}
 #home-parallax .home-parallax-contact-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/03.svg) center;background-size:cover;}
-#home-parallax .home-parallax-portfolio-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/04.svg) center;background-size:cover;}
+#home-parallax .home-parallax-portfolio-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/08.svg) center;background-size:cover;}
 #home-parallax .home-parallax-resume-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/05.svg) center;background-size:cover;}
 #home-parallax .home-parallax-work-one-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/15.svg) center;background-size:cover;}
+#home-parallax .home-parallax-work-two-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/26.svg) center;background-size:cover;}
+#home-parallax .home-parallax-work-three-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/14.svg) center;background-size:cover;}
 #home-parallax .home-parallax-archive-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/21.svg) center;background-size:cover;}
 #home-parallax .home-parallax-header-container{position:relative;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:table;}
 #home-parallax .home-parallax-title-slogan-container{width:700px;display:table-cell;vertical-align:middle;}
